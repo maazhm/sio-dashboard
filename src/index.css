@@ -1,0 +1,21 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --sage-50: #f8faf8;
+  --sage-100: #f1f4f1;
+  --sage-200: #e3e8e3;
+  --sage-300: #d0d8d0;
+  --sage-400: #b3c0b3;
+  --sage-500: #809f80;
+  --sage-600: #4d794d;
+  --sage-700: #3d613d;
+  --sage-800: #324f32;
+  --sage-900: #2a422a;
+}
+
+body {
+  @apply bg-gray-50;
+}
